@@ -1,0 +1,25 @@
+/* <p class="cla"> Number 1- I'm a class!</p>
+    <div id="two"> Number 2- I'm a one ID.</div>
+    <p class="cla"> Number 3 - I'm a class, but cooler!</p>
+    <div id="four"> Number 4 - I'm a another ID.</div>
+    <p class="cla"> Number 5 - I'm a class!</P> */
+
+.cla {
+    background-color: rgb(241, 128, 128);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#id-2{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.cla.bigger{
+    font-size: 24px;
+}
+
+#id-4{
+    background-color: rgb(136, 233, 136);
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.button-1{
+    background-color: rgb(93, 37, 6);
+    color: rgb(255, 233, 222);
+}
+
+.button-2{
+    background-color: rgb(255, 190, 133);
+}
+
+.button-1, .button-2 /*,.button-font*/{
+    font-size: 28px;
+    font-family: Helvetica, "Ttimes New Roman", sans-serif;
+}
+
+/* I originally had another class called "button-font",
+turns out, i didn't actually need it. I just needed to group
+the two. TOD really has me needing to think differently.
+It still worked with the button-font but not having it works fine.
